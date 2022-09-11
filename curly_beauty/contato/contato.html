@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contato</title>
+   <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+   <div class="container">
+      <header class="header">
+         <a href="../home/index.html">Home</a>
+         <a href="../home/index.html"> Contato</a>
+      </header>
+      <main class="main-contato">
+         <form class="form" action="">
+            <label class="label-form" for="nomesobrenome" req> Nome e Sobrenome:</label>
+            <input class="input-contato" type="text" id="nomesobrenome" placeholder="Digite aqui o seu nome" required>
+            <label class="label-form" for="email">Email:</label>
+            <input class="input-contato" type="email" id="email" placeholder="email@gmail.com" required>
+            <label class="label-form" for="telefone">Telefone:</label>
+            <input class="input-contato" type="tel" id="telefone" placeholder="(xx) xxxxx-xxxx" required>
+            <label class="label-form" for="mensagem">Mensagem</label>
+            <textarea class="textarea" name="mensagem" required id="mensagem" cols="10" rows="10"
+               placeholder="Digite aqui sua mensagem">
+               </textarea>
+            <fieldset class="checkbox-form">
+               <legend class="legend-checkbox">Como prefere o nosso contato? </legend>
+               <label class="input-text" for="radio-email">
+                  <input class="checkbox" name="contato" type="radio" value="email" id="radio-email">Email</label>
+               <label class="input-text" class="checkbox" for="radio-telefone">
+                  <input class="checkbox" name="contato" type="radio" value="telefone"
+                     id="radio-telefone">Telefone</label>
+               <label class="input-text" for="radio-whatsapp">
+                  <input class="checkbox" name="contato" type="radio" value="whatsapp" id="radio-whatsapp"
+                     checked>Whatsapp</label>
+            </fieldset>
+            <fieldset class="dias-horarios">
+               <legend class="title-dias-horarios">Qual horário prefere ser atendida?</legend>
+               <select class="option" name="" id="">
+                  <option value="">Manhã</option>
+                  <option value="">Tarde</option>
+                  <option value="">Noite</option>
+               </select>
+            </fieldset>
+            <label class="input-text">
+               <input type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
+            <div class="button-enviar">
+               <button class="button-form" type="submit" value="Enviar formulario">Enviar Formulário</button>
+            </div>
+         </form>
+      </main>
+      <section class="container-table">
+         <table class="table">
+            <thead class="title-table">
+               <tr>
+                  <th>Dia</td>
+                  <th>Horário</td>
+               </tr>
+            </thead>
+            <tbody class="tbody">
+               <tr>
+                  <td>Segunda</td>
+                  <td>08 às 18hrs</td>
+               </tr>
+               <tr>
+                  <td>Quarta</td>
+                  <td>08 às 18hrs</td>
+               </tr>
+               <tr>
+                  <td>Sexta</td>
+                  <td>08 às 18hrs</td>
+               </tr>
+            </tbody>
+         </table>
+      </section>
+      <footer class="footer">
+         <div class="group__footer">
+            <img class="footer__logo" src="../assets/pente-garfo-removebg-preview.png" alt="pente garfo">
+            <span class="text__logo">Curly Beauty</span>
+            <p class="copyright">© Copyright Curly Beauty - 2022</p>
+         </div>
+      </footer>
+   </div>
+</body>
+
+</html>

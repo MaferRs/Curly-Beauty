@@ -1,0 +1,139 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@300;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+.container{
+   width: 100%;
+}
+::placeholder{
+   padding-left: 14px;
+   padding-top: 5px;
+}
+.header{
+   display: flex;
+   height: 150px;
+   align-items: center;
+   font-family: 'Poppins', sans-serif;
+   justify-content: center;
+   gap:100px;
+   font-size:30px;
+   background-color:#971495;
+   box-shadow:  2px 4px 10px rgba(0, 0, 0, 0.308);
+}
+.main-contato{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.form{
+   margin: 40px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.label-form{
+   padding: 10px 0;
+   font-size: 18px;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+.button-form{
+   width: 60%;
+   font-size: 16px;
+   border-radius: 15px;
+   font-weight: 600;
+   font-family: 'Poppins', sans-serif;
+   margin-top: 20px;
+   padding: 10px 0;
+   color: rgb(247, 247, 247);
+   background-color:#971495;
+   border: none;
+   box-shadow:2px 3px 10px #61044db6;
+}
+.button-enviar:active{
+   transform: scale(1.1);
+   transition: all 0.30s;
+}
+.button-enviar{
+   display: flex;
+   justify-content: center;
+}
+
+.input-contato, .textarea, .option{
+   border: 1px solid #971495;
+   width: 90%;
+   height: 40px;
+   border-radius: 15px;
+   padding-left: 5px;
+   font-family: 'Poppins', sans-serif;
+}
+.textarea{
+   height: 150px;
+}
+.checkbox-form, .dias-horarios{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 20px 0;
+   border: none;
+}
+.legend-checkbox, .input-text, .title-dias-horarios{
+   padding: 10px;
+   font-size: 15px;
+   font-family: 'Poppins', sans-serif;
+}
+.checkbox{
+   margin-right: 10px;
+}
+
+
+.footer{
+   margin: 0 auto;
+   width: 100%;
+   background-color:#971495;
+   padding: 20px;
+}
+.group__footer{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+.copyright{
+   font-size: 0.8rem;
+}
+.footer__logo{
+   padding: 10px ;
+   width:120px;
+}
+.container-table{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.table{
+   width: 280px;
+   height: 150px;
+   border-radius: 20px;
+   padding: 10px;
+   border: 1px solid #971495;
+   margin-bottom: 10px;
+}
+.title-table{
+   background-color: #97149598;
+}
+td, th{
+   padding: 2px;
+   text-align: center;
+   border-radius: 10px;
+   border: 1px solid #971495 ;
+}

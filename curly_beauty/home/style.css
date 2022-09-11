@@ -1,0 +1,183 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@300;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: inherit;
+  line-height: 40px;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+body{
+  background: #ffffff;
+}
+.header{
+  display: flex;
+  height: 160px;
+  align-items: center;
+  justify-content: space-around;
+  background-color:#971495;
+  width: 100%;
+}
+.group__logo{
+display: flex;
+flex-direction: column;
+align-items:center;
+padding: auto;
+}
+.logo{
+  width: 30%;
+}
+.text__logo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 40%;
+}
+
+.menu, a{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(15, 15, 15);
+  margin: 20px;
+  font-size: 25px;
+}
+a:hover{
+  color: aliceblue;
+  transition: all 1s;
+}
+#banner{
+  width: 60%;
+  margin:0 auto;
+ display: flex;
+ justify-content: center;
+}
+.principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.titulo__principal{
+  font-family: 'Bad Script', cursive;
+  text-align: center;
+  font-size: 2rem;
+  padding: 40px 0 20px;
+}
+.description{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.text-principal{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+#missao{
+  font-size:20px ;
+  padding: 8px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+em strong{
+  font-family: 'Bad Script', cursive;
+  color: #B835B5;
+}
+
+.beneficios{  
+  width: 70%;
+  margin: 0 auto;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+.group-beneficios{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.group-item{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.itens{
+  font-style: italic;
+  font-size: 1rem;
+}
+.itens:first-child{
+  font-weight: 600;
+}
+.itens::before{
+  content:"💜  " ;
+}
+
+.imagem__beneficios{
+  width: 50%;
+}
+.footer{
+  margin: 0 auto;
+  width: 100%;
+  background-color:#971495;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+.group__footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.copyright{
+  font-size: 0.8rem;
+}
+.footer__logo{
+  padding: 10px ;
+  width:120px;
+}
+.text_footer_logo{
+  font-family: 20%;
+}
+.mapa{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+iframe{
+  border-radius: 25px;
+  box-shadow: 4px 6px 8px#20202086;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.button-up-arrow{
+  position: absolute;
+  border: none;
+  right: 30px;
+  background-color: inherit;
+  animation: scroll 1s;
+}
+.btn{
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 425px){
+  .menu{
+     display: flex; 
+      flex-wrap: wrap;
+  }
+  a{
+    margin: 0;
+    font-size: 20px;
+  }
+}
