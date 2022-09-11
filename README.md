@@ -5,6 +5,11 @@
 
 
 
+<h1>
+<a href="https://maferrs.github.io/Curly-Beauty/curly_beauty/home/index.html"> Curly Beauty </a>
+<br></h1>
+
+
 
 ![image](https://user-images.githubusercontent.com/90789503/189553305-30692a2f-a6ed-42db-8fca-75699c422fc1.png)
 ![image](https://user-images.githubusercontent.com/90789503/189553312-1614fb64-2ff2-4bbc-9f4e-6b8d97dcf9f7.png)
