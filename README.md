@@ -1,15 +1,26 @@
-# CURLY BEUATY 
+# CURLY BEAUTY
 
-<h2> 👾Este projeto foi criado a partir de uma aula do programa da Alura Next ONe, onde foi proposto criar um site de  barbearia, tomei a liberdade de fazer um tema diferente para colocar minha criatividade em prática e todo conhecimento adquirido também dado pelo desafio. </h2> <br>
+## 👾 Sobre o Projeto
 
-<br> <h2> O Layout está responsivo onde ele se adapta a todos os tipos de tela.</h2>
+Este projeto foi criado durante uma aula do programa Alura Next ONe, onde o desafio era criar um site para uma barbearia. Decidi dar um toque pessoal ao projeto e escolhi um tema diferente para colocar minha criatividade e o conhecimento adquirido em prática.
+
+O resultado é o CURLY BEAUTY, um site responsivo que se adapta a todos os tipos de tela.
+
+## ⚜️ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- HTML5
+- CSS3
+
+## 😃 Acesso
+
+Você pode acessar o projeto através deste link.
 
 
-
-<h1>
-<a href="https://maferrs.github.io/Curly-Beauty/curly_beauty/home/index.html"> 😃 Link para acesso </a>
-<br></h1>
-
+<a href="https://maferrs.github.io/Curly-Beauty/curly_beauty/home/index.html">  Curly Beauty </a>
+<br>
+Espero que goste do CURLY BEAUTY!
 
 
 ![image](https://user-images.githubusercontent.com/90789503/189553305-30692a2f-a6ed-42db-8fca-75699c422fc1.png)
